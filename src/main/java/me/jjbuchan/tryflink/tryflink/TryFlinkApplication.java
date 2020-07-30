@@ -11,7 +11,9 @@ public class TryFlinkApplication {
     SpringApplication.run(TryFlinkApplication.class, args);
 
     DataProcessor.capitalize();
-    DataProcessor.join();
+//    DataProcessor.join();
+//    DataProcessor.cep();
+//    DataProcessor.cep2();
   }
 
 }
